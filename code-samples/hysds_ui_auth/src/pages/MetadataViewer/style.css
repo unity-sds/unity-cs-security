@@ -1,0 +1,15 @@
+.metadata-view-container {
+  min-height: calc(100vh - 43px);
+  height: 100%;
+  padding: 30px;
+}
+
+.metadata-view-loader,
+.metadata-view-error {
+  font-size: 30px;
+  text-align: center;
+}
+
+.metadata-view-buffer {
+  margin: 0px 15px;
+}

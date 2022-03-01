@@ -1,0 +1,48 @@
+.ReactTable .rt-tbody .rt-td {
+  text-align: center;
+  font-size: 12px;
+}
+
+.ReactTable .-pagination {
+  justify-content: center;
+  box-shadow: none;
+}
+
+.ReactTable .-pagination .-center {
+  flex: none;
+}
+
+.ReactTable .-pagination .-previous,
+.ReactTable .-pagination .-next {
+  flex: 0;
+}
+
+.ReactTable .-pagination .-btn {
+  width: 85px;
+}
+
+.__theme-dark .ReactTable .rt-thead .rt-th.-sort-desc,
+.__theme-dark .ReactTable .rt-thead .rt-td.-sort-desc {
+  box-shadow: inset 0 -3px 0 0 #ffff;
+}
+
+.__theme-dark .ReactTable .rt-thead .rt-th.-sort-asc,
+.__theme-dark .ReactTable .rt-thead .rt-td.-sort-asc {
+  box-shadow: inset 0 3px 0 0 #ffff;
+}
+
+.user-rules-table-query-string {
+  padding-left: 35px;
+  padding-right: 35px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.user-rules-table-query-string pre {
+  font-size: 11px;
+}
+
+.user-rules-table-dropdown-filter {
+  width: 100%;
+  height: 100%;
+}
