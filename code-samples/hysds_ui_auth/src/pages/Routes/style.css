@@ -1,0 +1,20 @@
+@import "../../style/global.css";
+
+.__theme-dark {
+  background-color: var(--dark-theme-background);
+  color: var(--dark-theme-color);
+}
+
+.__theme-light {
+  background-color: var(--light-theme-background);
+  color: var(--light-theme-color);
+}
+
+body {
+  margin: 0px;
+  font-family: "Oswald", sans-serif !important;
+}
+
+p {
+  text-align: center;
+}

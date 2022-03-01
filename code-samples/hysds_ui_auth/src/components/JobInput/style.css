@@ -1,0 +1,35 @@
+.job-param-border {
+  border: 1px solid #000000b0;
+  margin-top: 35px;
+  margin-bottom: 35px;
+}
+
+.job-input-wrapper {
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.job-spec-input {
+  margin-bottom: 10px;
+}
+
+.params-input:focus {
+  border-color: #1c7ce4;
+  border-width: 2px;
+}
+
+.on-demand-submitter-wrapper {
+  margin: 20px;
+}
+
+.job-input-label {
+  float: left;
+  margin-top: 10px;
+  margin-right: 10px;
+  min-width: 65px;
+}
+
+.job-input-select-wrapper {
+  flex: 1;
+}

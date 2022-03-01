@@ -1,0 +1,42 @@
+@import "../../style/global.css";
+
+.user-rules-body {
+  height: calc(100vh - 47px);
+}
+
+.user-rules-options-wrapper {
+  display: flex;
+  padding: 15px 15px 45px 15px;
+}
+
+.user-rules-button-wrapper {
+  margin-left: auto;
+}
+
+.user-rules-global-search {
+  font-size: 13px;
+  padding: 9px;
+  width: 22rem;
+  border-radius: 5px;
+  border: solid 1px #dfdfdf;
+}
+
+.tosca-user-rules {
+  min-width: 750px;
+}
+
+.__theme-dark .user-rules-options-wrapper input {
+  background-color: var(--dark-theme-light);
+  color: var(--dark-theme-color);
+  border-color: var(--dark-theme-alt);
+}
+
+.__theme-dark .ReactTable .-pagination button {
+  color: var(--dark-theme-color);
+}
+
+.__theme-dark .ReactTable .__theme-dark .rt-thead.-filters input,
+.__theme-dark .ReactTable .__theme-dark .rt-thead.-filters select {
+  background-color: var(--dark-theme-light);
+  color: var(--dark-theme-color);
+}

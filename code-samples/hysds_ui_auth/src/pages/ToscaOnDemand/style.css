@@ -1,0 +1,76 @@
+@import "../../style/global.css";
+
+.tosca-on-demand-page {
+  min-width: 650px;
+}
+
+.tosca-on-demand {
+  display: flex;
+  height: calc(100vh - 43px);
+}
+
+/* Control the left and right side */
+.on-demand-left,
+.on-demand-right {
+  flex: 1;
+  overflow: auto;
+}
+
+.tosca-on-demand-button-wrapper {
+  display: flex;
+  padding: 10px;
+}
+
+.tosca-on-demand-button {
+  margin: 5px;
+}
+
+.on-demand-submission-type {
+  padding-left: 10px;
+  border: none;
+  font-size: 15px;
+}
+
+.on-demand-submission-type:focus {
+  outline: 0;
+}
+
+.data-count-header {
+  font-size: 25px;
+  padding: 15px;
+}
+
+@media (max-width: 950px) {
+  .tosca-on-demand {
+    display: block;
+    overflow: auto;
+  }
+
+  .on-demand-right {
+    padding: 5px;
+  }
+}
+
+.__theme-dark .on-demand-select-wrapper {
+  color: black;
+}
+
+.__theme-dark .on-demand-select-wrapper label {
+  color: var(--dark-theme-color);
+}
+
+.__theme-dark section {
+  color: black;
+}
+.__theme-dark label {
+  color: var(--dark-theme-color);
+}
+
+.__theme-dark hr {
+  border-color: var(--dark-theme-color);
+}
+
+.__theme-dark .on-demand-submission-type {
+  background-color: var(--dark-theme-background);
+  color: var(--dark-theme-color);
+}

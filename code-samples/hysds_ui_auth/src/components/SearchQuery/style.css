@@ -1,0 +1,29 @@
+@import "../../style/global.css";
+
+.query-input-box {
+  height: 30px;
+  width: 100%;
+  padding: 10px;
+  font-size: 12px;
+  border-radius: 5px;
+  box-shadow: none;
+}
+
+.query-input-form {
+  min-width: 250px;
+  flex: 1;
+  margin-right: 20px;
+}
+
+.__theme-dark .query-input-box {
+  border: var(--dark-theme-border);
+  background-color: var(--dark-theme-alt);
+  color: var(--dark-theme-color);
+  border: none;
+}
+
+.__theme-light .query-input-box {
+  border: var(--light-theme-border);
+  color: var(--light-theme-color);
+  border: 1px solid #cccccc;
+}
