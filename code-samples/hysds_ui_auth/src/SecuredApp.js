@@ -1,5 +1,5 @@
 /**
- * This SecuredApp.js is a reference implementation to use OAuth2 PKCE (Proof Key for Code Exchange) flow
+ * This SecuredApp.js is a reference implementation to use OAuth2 Authorization Code Grant with PKCE (Proof Key for Code Exchange)
  * in React.JS based Unity UI applications.
  *
  * This code is implemented based on the following references:
