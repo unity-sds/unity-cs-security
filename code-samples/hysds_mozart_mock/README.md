@@ -10,6 +10,8 @@ to demonstrate OAuth2.0 flows.
 
 ## Install Additional Dependencies
 
+Open a terminal and execute the following commands in application root directory.
+
 ```bash
 pip3 install flask
 pip3 install flasgger
@@ -17,6 +19,8 @@ pip3 install flask_cors
 ```
 
 ## Run Application
+
+Execute the following command in application root directory.
 
 ```bash
 python3 app.py
