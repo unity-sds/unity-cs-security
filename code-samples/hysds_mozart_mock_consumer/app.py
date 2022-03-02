@@ -61,6 +61,7 @@ def job_count():
     token_endpoint = os.getenv('TOKEN_ENDPOINT')
     mozart_mock_job_count_endpoint = os.getenv('MOZART_MOCK_JOB_COUNT_ENDPOINT')
 
+    # Authenticate with OAuth2.0 Client Credentials Flow
     auth = HTTPBasicAuth(client_id, client_secret)
     client = BackendApplicationClient(client_id=client_id)
     oauth = OAuth2Session(client=client)
