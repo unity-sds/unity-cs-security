@@ -1,4 +1,4 @@
-## HySDS UI Authentication with OAuth2 Authorization Code Grant with the PKCE (Proof Key for Code Exchange)
+# HySDS UI Authentication with OAuth2 Authorization Code Grant with the PKCE (Proof Key for Code Exchange)
 
 This code sample was created based on the HySDS UI source code available at https://github.com/hysds/hysds_ui .
 
@@ -24,7 +24,7 @@ This code sample implements Auth 2.0 Authorization Code Grant with the PKCE base
 - Node (>=6 & < 13) installed on machine
 - npm installed
 
-## Update config file
+## Update Config File
 
 Update the following settings to match with your setup.
 
@@ -42,7 +42,7 @@ exports.REACT_APP_AUTH_PROVIDER_URL = "https://unity-cs-sample-user-pool.auth.us
 
 ```
 
-## Building and Running application locally
+## Building and Running Application Locally
 
 ```bash
 # install nodejs dependencies
