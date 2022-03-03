@@ -4,7 +4,7 @@ const HtmlWebPackPlugin = require("html-webpack-plugin");
 const { ROOT_PATH } = require("./src/config");
 
 module.exports = {
-  entry: "./src/index.js",
+  entry: ["regenerator-runtime/runtime.js", "./src/index.js"],
   output: {
     path: path.resolve(__dirname, "dist"),
     filename: "index_bundle.js",

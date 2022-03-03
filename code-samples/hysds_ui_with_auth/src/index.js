@@ -1,14 +1,5 @@
-import React from "react";
-import ReactDOM from "react-dom";
-import Routes from "./pages/Routes/index.jsx";
+import React from 'react';
+import ReactDOM from 'react-dom';
+import AppWithAuthentication from './AppWithAuthentication';
 
-import { Provider } from "react-redux";
-import store from "./redux/store";
-
-const Application = (
-  <Provider store={store}>
-    <Routes />
-  </Provider>
-);
-
-ReactDOM.render(Application, document.getElementById("app"));
+ReactDOM.render(<AppWithAuthentication />, document.getElementById('app'));
