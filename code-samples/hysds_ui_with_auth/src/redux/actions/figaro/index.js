@@ -25,10 +25,17 @@ import {
   MOZART_REST_API_V2,
 } from "../../../config";
 
+import { getTokens } from "../../../AppWithAuthentication";
+
 export const getJobCounts = () => (dispatch) => {
   const jobCountsEndpoint = `${MOZART_REST_API_BASE}/job_count`;
 
-  return fetch(jobCountsEndpoint)
+    return fetch(jobCountsEndpoint, {
+        method: 'get',
+        headers: new Headers({
+            'Authorization': 'Bearer ' + getTokens().accessToken
+        })
+    })
     .then((res) => res.json())
     .then((data) =>
       dispatch({
