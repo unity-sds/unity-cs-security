@@ -113,9 +113,9 @@ function AppWithAuthentication() {
     if (!hasUserGroup(accessToken, APP_VIEWER_GROUP_NAME)
         && !hasUserGroup(accessToken, APP_ADMIN_GROUP_NAME)) {
         return (
-            <div>
-                <h3>  User {loggedInUserName} ({loggedInUserEmail}) is not authorized to access this application.</h3>
-                <h3>  Please check your user groups [{userGroups}].</h3>
+            <div align="center">
+                <h4>  User {loggedInUserName} ({loggedInUserEmail}) is not authorized to access this application.</h4>
+                <h4>  Please check your user groups [{userGroups}].</h4>
                 <Button size="large" color="fail" label="Logout" onClick={logout} />
             </div>
         );
