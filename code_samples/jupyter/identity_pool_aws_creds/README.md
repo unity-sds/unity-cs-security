@@ -61,7 +61,3 @@ usually the Cognito ID token should be available as the UNITY_COGNITO_ID_TOKEN e
 which is stored during the JupyterLab spawn or an access token refresh. This UNITY_COGNITO_ID_TOKEN 
 environment variable can be updated using the get_unity_cognito_access_token() function defined in 
 the ../get_and_refresh_tokens/Refresh-Cognito-Tokens.ipynb
-
-
-
-
