@@ -30,7 +30,7 @@ This function is used to obtain temporary AWS credentials using a Cognito ID tok
 for more information).
 
 1) Login to JupyterHub to launch a JupyterLab 
-2) Get-AWS-Creds-From-Cognito-ID-Token.ipynb
+2) Upload the Get-AWS-Creds-From-Cognito-ID-Token.ipynb
 3) Update the following constants
 ```
 # Obtain the Cognito identity pool ID from the Unity Common Services Team
